@@ -46,5 +46,5 @@ else:
 
 correct = True if data == 'Info' else False
 
-print(correct)
+print('killer')
 
