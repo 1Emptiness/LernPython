@@ -302,3 +302,25 @@ def shortener(st):
 input_string = "Дмитрий считает, что когда текст пишут в скобках (как вот тут, например), его читать не нужно."
 print(shortener('Падал(лишнее (лишнее) лишнее) прошлогодний снег (лишнее)'))
 print(shortener('(лишнее(лишнее))Падал прошлогодний (лишнее(лишнее(лишнее)))снег'))
+
+
+def cleaned_str(st):
+    result = []
+    
+    for char in st:
+        if char == '@':
+            if result:
+                result.pop()  # Удаляем последний символ из списка
+        else:
+            result.append(char)  # Добавляем символ в список
+    
+    return ''.join(result)
+
+# Пример использования
+input_string = "гр@оо@лк@оц@ва"
+print(cleaned_str(input_string))  # Ожидаемый результат: "голова"
+
+print(cleaned_str('сварка@@@@@лоб@ну@'))
+
+
+inte = print('Sky')
