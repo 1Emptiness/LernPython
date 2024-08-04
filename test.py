@@ -324,3 +324,6 @@ print(cleaned_str('сварка@@@@@лоб@ну@'))
 
 
 inte = print('Sky')
+
+
+print('Apdate text')
