@@ -1,0 +1,712 @@
+kedzi@DESKTOP-FNHPLVS MINGW64 ~ (master)
+$ cd D:\GitLern\githowto
+bash: cd: D:GitLerngithowto: No such file or directory
+
+kedzi@DESKTOP-FNHPLVS MINGW64 ~ (master)
+$ git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/Мои видеозаписи/': Permission denied
+warning: could not open directory 'Documents/мои рисунки/': Permission denied
+warning: could not open directory 'Documents/Моя музыка/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'главное меню/': Permission denied
+warning: could not open directory 'Мои документы/': Permission denied
+warning: could not open directory 'Шаблоны/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        -1.14-windows.xml
+        .gitconfig
+        .lesshst
+        .viminfo
+        .vscode/
+        3D Objects/
+        AppData/
+        Contacts/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        Saved Games/
+        Searches/
+        Videos/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 ~ (master)
+$ git branch -a
+
+kedzi@DESKTOP-FNHPLVS MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/kedzi/.git/
+
+kedzi@DESKTOP-FNHPLVS MINGW64 ~ (master)
+$ git branch -a
+
+kedzi@DESKTOP-FNHPLVS MINGW64 ~ (master)
+$ cd D:\GitLern\githowto\repositories
+bash: cd: D:GitLerngithowtorepositories: No such file or directory
+
+kedzi@DESKTOP-FNHPLVS MINGW64 ~ (master)
+$ cd D:\PythonLern
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/PythonLern (master)
+$ cd D:\GitLern\githowto\repositories
+bash: cd: D:GitLerngithowtorepositories: No such file or directory
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/PythonLern (master)
+$ cd ..
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d
+$ cd ..
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /
+$ cd D:\GitLern\githowto\repositories
+bash: cd: D:GitLerngithowtorepositories: No such file or directory
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /
+$ cd D:\PythonLern
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/PythonLern (master)
+$ cd ../../
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /
+$ D:
+bash: D:: command not found
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /
+$ D:\GitLern\githowto\repositories\work
+bash: D:GitLerngithowtorepositorieswork: command not found
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /
+$ cd /d
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d
+$ cd GitLern/githowto/repositories/work
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work
+$ git init
+Initialized empty Git repository in D:/GitLern/githowto/repositories/work/.git/
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git add hello.html
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git commit -m "1 commit"
+[main (root-commit) b60c637] 1 commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.html
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git add hello.html
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git commit -m "2 commit save"
+[main 504571b] 2 commit save
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+commit 504571b832e99bef3e5f3e441d6ed68084d3fc06 (HEAD -> main)
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:51:14 2024 +0300
+
+    2 commit save
+
+commit b60c63726f590d5f2cc845c649603c41e6a9a631
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:46:58 2024 +0300
+
+    1 commit
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git add hello.html
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git commit -m "Added standard HTML page tags"
+[main b72ebe7] Added standard HTML page tags
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git add .
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git commit -m "Added HTML header"
+[main a7ece88] Added HTML header
+ 1 file changed, 2 insertions(+)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+commit a7ece8829bc6dfbaa26c349c0013ae5e685ef781 (HEAD -> main)
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:58:10 2024 +0300
+
+    Added HTML header
+
+commit b72ebe706ccb1d7bdb2f536c461ac6ac127e1945
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:55:23 2024 +0300
+
+    Added standard HTML page tags
+
+commit 504571b832e99bef3e5f3e441d6ed68084d3fc06
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:51:14 2024 +0300
+
+    2 commit save
+
+commit b60c63726f590d5f2cc845c649603c41e6a9a631
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:46:58 2024 +0300
+
+    1 commit
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log --pretty=format:%h %ad | %s%d [%an] --date=short
+bash: %s%d: command not found
+fatal: ambiguous argument '%ad': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log --pretty=format:"%h %ad | %s%d [%an]" --date=short
+a7ece88 2024-08-05 | Added HTML header (HEAD -> main) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+commit a7ece8829bc6dfbaa26c349c0013ae5e685ef781 (HEAD -> main)
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:58:10 2024 +0300
+
+    Added HTML header
+
+commit b72ebe706ccb1d7bdb2f536c461ac6ac127e1945
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:55:23 2024 +0300
+
+    Added standard HTML page tags
+
+commit 504571b832e99bef3e5f3e441d6ed68084d3fc06
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:51:14 2024 +0300
+
+    2 commit save
+
+commit b60c63726f590d5f2cc845c649603c41e6a9a631
+Author: Sky King <kedzi54271826@gmail.com>
+Date:   Mon Aug 5 20:46:58 2024 +0300
+
+    1 commit
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git config --global format.pretty '%h %ad | %s%d [%an]'
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git config --global log.date short
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+a7ece88 2024-08-05 | Added HTML header (HEAD -> main) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git checkout <hash>
+bash: syntax error near unexpected token `newline'
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git checkout b60c637
+Note: switching to 'b60c637'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at b60c637 1 commit
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((b60c637...))
+$ cat hello.html
+Hello, World
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((b60c637...))
+$ git switch main
+Previous HEAD position was b60c637 1 commit
+Switched to branch 'main'
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ cat hello.word
+cat: hello.word: No such file or directory
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git tag v1
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+a7ece88 2024-08-05 | Added HTML header (HEAD -> main, tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ v1^
+bash: v1^: command not found
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ v1~1
+bash: v1~1: command not found
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git checkout v1^
+Note: switching to 'v1^'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at b72ebe7 Added standard HTML page tags
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((b72ebe7...))
+$ cat hello.html
+<html>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((b72ebe7...))
+$ git tag v1-beta
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1-beta))
+$ git log
+b72ebe7 2024-08-05 | Added standard HTML page tags (HEAD, tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1-beta))
+$ git checkout v1
+Previous HEAD position was b72ebe7 Added standard HTML page tags
+HEAD is now at a7ece88 Added HTML header
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git checkout v1-beta
+Previous HEAD position was a7ece88 Added HTML header
+HEAD is now at b72ebe7 Added standard HTML page tags
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1-beta))
+$ git tag
+v1
+v1-beta
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1-beta))
+$ git log main --all
+a7ece88 2024-08-05 | Added HTML header (tag: v1, main) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (HEAD, tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1-beta))
+$ git checkout main
+Previous HEAD position was b72ebe7 Added standard HTML page tags
+Switched to branch 'main'
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+a7ece88 2024-08-05 | Added HTML header (HEAD -> main, tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git chekout hello.html
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git checkout hello.html
+Updated 1 path from the index
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git add hello.html
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git reset HEAD hello.html
+Unstaged changes after reset:
+M       hello.html
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git checkout hello.html
+Updated 1 path from the index
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git add hello.html
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git commit -m "OOps, we didn't want this commit"
+[main 4a48ea3] OOps, we didn't want this commit
+ 1 file changed, 2 insertions(+)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ igt revert HEAD
+bash: igt: command not found
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git revert HEAD
+hint: Waiting for your editor to close the file...       1 [sig] bash 886! sigpacket::process: Suppressing signal 18 to win32 process (pid 12500)
+                         Программа Vim. Ошибка считывания из входного потока. Завершение работы...
+Vim: preserving files...
+Vim: Finished.
+
+error: there was a problem with the editor 'vi'
+Please supply the message using either -m or -F option.
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+4a48ea3 2024-08-05 | OOps, we didn't want this commit (HEAD -> main) [Sky King]
+a7ece88 2024-08-05 | Added HTML header (tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git revert HEAD
+error: your local changes would be overwritten by revert.
+hint: commit your changes or stash them to proceed.
+fatal: revert failed
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git switch 4a48ea3
+fatal: a branch is expected, got commit '4a48ea3'
+hint: If you want to detach HEAD at the commit, try again with the --detach option.
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git config --global core.editor "notepad"
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git stash
+Saved working directory and index state WIP on main: 4a48ea3 OOps, we didn't want this commit
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git revert HEAD
+hint: Waiting for your editor to close the file... unix2dos: converting file D:/GitLern/githowto/repositories/work/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file D:/GitLern/githowto/repositories/work/.git/COMMIT_EDITMSG to Unix format...
+[K[main c0c8e11] Revert "This commit a new"
+ 1 file changed, 2 deletions(-)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git add .
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git log
+c0c8e11 2024-08-05 | Revert "This commit a new" (HEAD -> main) [Sky King]
+4a48ea3 2024-08-05 | OOps, we didn't want this commit [Sky King]
+a7ece88 2024-08-05 | Added HTML header (tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git switch --detach 4a48ea3
+HEAD is now at 4a48ea3 OOps, we didn't want this commit
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((4a48ea3...))
+$ git revert HEAD
+hint: Waiting for your editor to close the file... unix2dos: converting file D:/GitLern/githowto/repositories/work/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file D:/GitLern/githowto/repositories/work/.git/COMMIT_EDITMSG to Unix format...
+[K[detached HEAD 0bf8c41] Revert "OOps, we didn't want this commit"
+ 1 file changed, 2 deletions(-)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((0bf8c41...))
+$ git log
+0bf8c41 2024-08-05 | Revert "OOps, we didn't want this commit" (HEAD) [Sky King]
+4a48ea3 2024-08-05 | OOps, we didn't want this commit [Sky King]
+a7ece88 2024-08-05 | Added HTML header (tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((0bf8c41...))
+$ git tag oops
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((oops))
+$ git log
+0bf8c41 2024-08-05 | Revert "OOps, we didn't want this commit" (HEAD, tag: oops) [Sky King]
+4a48ea3 2024-08-05 | OOps, we didn't want this commit [Sky King]
+a7ece88 2024-08-05 | Added HTML header (tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((oops))
+$ git reset --hard v1
+HEAD is now at a7ece88 Added HTML header
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git log
+a7ece88 2024-08-05 | Added HTML header (HEAD, tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git lolg --all
+git: 'lolg' is not a git command. See 'git --help'.
+
+The most similar command is
+        log
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git log --all
+0bf8c41 2024-08-05 | Revert "OOps, we didn't want this commit" (tag: oops) [Sky King]
+c0c8e11 2024-08-05 | Revert "This commit a new" (main) [Sky King]
+37c5fe3 2024-08-05 | WIP on main: 4a48ea3 OOps, we didn't want this commit (refs/stash) [Sky King]
+52c5a06 2024-08-05 | index on main: 4a48ea3 OOps, we didn't want this commit [Sky King]
+4a48ea3 2024-08-05 | OOps, we didn't want this commit [Sky King]
+a7ece88 2024-08-05 | Added HTML header (HEAD, tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git tag -d oops
+Deleted tag 'oops' (was 0bf8c41)
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git log --all
+c0c8e11 2024-08-05 | Revert "This commit a new" (main) [Sky King]
+37c5fe3 2024-08-05 | WIP on main: 4a48ea3 OOps, we didn't want this commit (refs/stash) [Sky King]
+52c5a06 2024-08-05 | index on main: 4a48ea3 OOps, we didn't want this commit [Sky King]
+4a48ea3 2024-08-05 | OOps, we didn't want this commit [Sky King]
+a7ece88 2024-08-05 | Added HTML header (HEAD, tag: v1) [Sky King]
+b72ebe7 2024-08-05 | Added standard HTML page tags (tag: v1-beta) [Sky King]
+504571b 2024-08-05 | 2 commit save [Sky King]
+b60c637 2024-08-05 | 1 commit [Sky King]
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git tag -d c0c8e11
+error: tag 'c0c8e11' not found.
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git switch 37c5fe3
+fatal: a branch is expected, got commit '37c5fe3'
+hint: If you want to detach HEAD at the commit, try again with the --detach option.
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((v1))
+$ git switch main
+Previous HEAD position was a7ece88 Added HTML header
+Switched to branch 'main'
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git switch 37c5fe3
+fatal: a branch is expected, got commit '37c5fe3'
+hint: If you want to detach HEAD at the commit, try again with the --detach option.
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work (main)
+$ git checkout 37c5fe3
+Note: switching to '37c5fe3'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 37c5fe3 WIP on main: 4a48ea3 OOps, we didn't want this commit
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((37c5fe3...))
+$ git rebase -i <commit_hash>~1
+bash: commit_hash: No such file or directory
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((37c5fe3...))
+$ git rebase -i <37c5fe3>~1
+bash: 37c5fe3: No such file or directory
+
+kedzi@DESKTOP-FNHPLVS MINGW64 /d/GitLern/githowto/repositories/work ((37c5fe3...))
+$

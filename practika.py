@@ -48,4 +48,4 @@ correct = True if data == 'Info' else False
 
 print('killer')
 
-hearde = "hijt"
+hearde = "gsdgsdgdgssdgsgg"
